@@ -5,21 +5,21 @@
     --active-color: #FFFFFF;
     --dont-active-color: #F5F4FA;
     --background-h1-color: #2F303A;
-    --color-footer-last: color: rgba(255, 255, 255, 0.6);
+    --color-footer-last:  rgba(255, 255, 255, 0.6);
+    --button-active: #188CE8
 }
 
 body {
     background-color: var(--active-color);
     color: var(--osnova-text-color);
-    text-decoration: none;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
 }
 li {
     list-style-type: none;
 }
 
-.h2 {
+.h2-studio {
     color: var(--two-text-color);
     font-family: 'Roboto';
     font-style: normal;
@@ -28,20 +28,11 @@ li {
     line-height: 1.16;
     text-align: center;
 }
-.h3 {
+.h3-company {
     color: var(--two-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-}
-.logo.logo-span{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,19;
 }
 .logo:active
 .logo:hover
@@ -57,10 +48,10 @@ li {
 }
 .logo {
     color:var(--background-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
 .logo-span {
     color: var(--two-text-color);
@@ -100,18 +91,18 @@ li {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.h1 {
+.h1-studio {
     background-color: var(--background-h1-color) ;
 }
 .button-studio {
     background-color:var(--background-color);
     color: var(--active-color);
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -119,11 +110,12 @@ li {
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer
 }
 .button-studio:hover,
 .button-studio:focus,
 .button-studio:active {
-    background-color: var(--background-color);
+    background-color:var(--button-active)
 }
 .text-benefits {
     font-family: 'Roboto';
@@ -134,7 +126,6 @@ li {
 }
 .h3-comand{
     color: var(--two-text-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -160,11 +151,13 @@ li {
 }
 .footer-adress {
     color: var(--active-color);
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+.footer-adress:hover,
+.footer-adress:focus {
+    color: var(--background-color);
 }
 .phone {
     color: rgba(255, 255, 255, 0.6);
@@ -178,9 +171,6 @@ a{
     text-decoration: none;
     }
     a:hover{
-    text-decoration: none;
-    }
-    a:visited{
     text-decoration: none;
     }
     a:active{
@@ -197,12 +187,13 @@ a{
 .button-n {
     color: var(--two-text-color);
     background-color: var(--dont-active-color);
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.65;
     text-align: center;
+    cursor: pointer;
 }
 .button-n:hover,
 .button-n:focus,
@@ -212,17 +203,16 @@ a{
 }
 .h3-port {
     color: var(--two-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 .text-port {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    color: var(--osnova-text-color);
     font-size: 16px;
     line-height: 1.87;
+}
+.comand-ul {
+    background-color: var(--dont-active-color);
 }
