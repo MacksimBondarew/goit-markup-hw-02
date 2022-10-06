@@ -19,16 +19,14 @@ li {
     list-style-type: none;
 }
 
-.h2-studio {
+.secondary-title {
     color: var(--two-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
 }
-.h3-company {
+.name-company {
     color: var(--two-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -48,7 +46,7 @@ li {
 }
 .logo {
     color:var(--background-color);
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -64,7 +62,6 @@ li {
 }
 .studio {
     color: var(--two-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -85,10 +82,8 @@ li {
 .nomer:active{
     color: var(--background-color);
 }
-.h1-one {
+.main-header {
     color: var(--active-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -96,7 +91,7 @@ li {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.h1-studio {
+.header-studio {
     background-color: var(--background-h1-color) ;
 }
 .button-studio {
@@ -118,13 +113,10 @@ li {
     background-color:var(--button-active)
 }
 .text-benefits {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
-.h3-comand{
+.name-comand{
     color: var(--two-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -160,10 +152,8 @@ li {
     color: var(--background-color);
 }
 .phone {
-    color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
+    color: var(--color-footer-last);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -184,7 +174,7 @@ a{
 .current {
     color:var(--background-color)
 }
-.button-n {
+.button-filter {
     color: var(--two-text-color);
     background-color: var(--dont-active-color);
     font-family: inherit;
@@ -201,7 +191,7 @@ a{
     color: var(--active-color);
     background-color: var(--background-color);
 }
-.h3-port {
+.name-port {
     color: var(--two-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -213,6 +203,13 @@ a{
     font-size: 16px;
     line-height: 1.87;
 }
-.comand-ul {
+.comand{
     background-color: var(--dont-active-color);
+}
+.li-comand {
+    background-color: var(--active-color);
+}
+.nomer:hover,
+.nomer:focus{
+    color: var(--background-color);
 }
