@@ -185,9 +185,9 @@ a{
     text-align: center;
     cursor: pointer;
 }
-.button-n:hover,
-.button-n:focus,
-.button-n:active{
+.button-filter:hover,
+.button-filter:focus,
+.button-filter:active{
     color: var(--active-color);
     background-color: var(--background-color);
 }
